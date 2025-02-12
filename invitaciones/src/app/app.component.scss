@@ -1,0 +1,70 @@
+$fontGrande: 50px;
+$fontMedio: 35px;
+$fontChico: 20px;
+$dorado: #9d8b56;
+$colorFondo: #f9faeb;
+
+.cuerpo {
+  height: max-content;
+  width: max-contents;
+  --background-color: $colorFondo;
+  display: flex;
+  flex-direction: column;
+  --align-items: center;
+
+  border-color: red;
+  border-width: 10px;
+  --border-style: solid;
+}
+
+.encabezado {
+  font-family: "Great Vibes", serif;
+  padding: 25px 0px 0px 0px;
+  font-size: $fontMedio;
+  display: flex;
+  justify-content: center;
+}
+
+.nombres {
+  font-family: "Great Vibes", serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: $fontGrande;
+  color: $dorado;
+  padding: 10%;
+}
+
+.texto {
+  font-size: $fontChico;
+  text-align: center;
+  font-family: "Josefin Slab", serif;
+}
+
+.fecha {
+  padding-top: 5%;
+  font-size: $fontMedio;
+  font-family: "Josefin Slab", serif;
+  color: $dorado;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.nombresPadres {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-family: "Josefin Slab", serif;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 5%;
+  font-size: $fontChico;
+}
+
+.mesaqr {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 5%;
+}
