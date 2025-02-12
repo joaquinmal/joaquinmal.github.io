@@ -68,9 +68,22 @@
   .my-button {
     font-family: "Josefin Slab", serif;
     color: white;
-    font-size: 40px;
+    font-size: 30px;
     background-color: #9d8b56;
-    border-radius: 5%;
+    border-radius: 20px;
+    margin: 2% 10% 10% 10%;
+    height: 60px;
+    width: 350px;
+  }
+
+  .my-buttonPequeño {
+    font-family: "Josefin Slab", serif;
+    color: white;
+    font-size: 30px;
+    background-color: #9d8b56;
+    border-radius: 20px;
+    height: 45px;
+    width: 200px;
   }
 </style>
 
@@ -172,20 +185,31 @@
 
   <div class="encabezado" style="padding-bottom: 5%">Iglesia</div>
   <div class="texto">
-    <a
-      href="https://www.google.com/maps/place//data=!4m2!3m1!1s0x85d1e893dbb7b44b:0x2cb3826e1adfe53b?entry=s&sa=X&ved=1t:8290&ictx=111"
-      >Parroquia San Miguel Arcángel Plaza de la Constitución S/N, San Miguel,
-      C:P 56270, Chiconcuac de Juárez, Estado De México</a
-    >
+    <p>
+      Parroquia San Miguel Arcángel Plaza de la Constitución S/N, San Miguel,
+      C:P 56270, Chiconcuac de Juárez, Estado De México
+    </p>
+    <div>
+      <form
+        action="https://www.google.com/maps/place//data=!4m2!3m1!1s0x85d1e893dbb7b44b:0x2cb3826e1adfe53b?entry=s&sa=X&ved=1t:8290&ictx=111"
+      >
+        <input class="my-buttonPequeño" type="submit" value="Indicaciones" />
+      </form>
+    </div>
   </div>
 
   <div class="encabezado" style="padding-bottom: 5%">Recepción</div>
   <div class="texto">
-    <a
-      href="https://www.google.com/maps/place//data=!4m2!3m1!1s0x85d1e89af13d5c01:0xdf496de86f22bb62?entry=s&sa=X&ved=1t:8290&ictx=111"
-      >Salón Demis Allende 22, San Francisco, 56270 Chiautla, Estado de
-      México</a
-    >
+    <p>
+      Salón Demis Allende 22, San Francisco, 56270 Chiautla, Estado de México
+    </p>
+    <div>
+      <form
+        action="https://www.google.com/maps/place//data=!4m2!3m1!1s0x85d1e89af13d5c01:0xdf496de86f22bb62?entry=s&sa=X&ved=1t:8290&ictx=111"
+      >
+        <input class="my-buttonPequeño" type="submit" value="Indicaciones" />
+      </form>
+    </div>
   </div>
   <div class="encabezado">
     <img src="copas.png" width="400px" height="500px" />
@@ -194,15 +218,24 @@
   <div class="mesaqr">
     <img src="qramazon.png" width="400px" height="400px" />
     <div class="encabezado" style="padding-bottom: 5%">
-      <a href="https://www.amazon.com.mx/wedding/share/fernandayjoaquin"
-        >Amazon</a
-      >
+      <p>Amazon</p>
+      <div>
+        <form action="https://www.amazon.com.mx/wedding/share/fernandayjoaquin">
+          <input class="my-buttonPequeño" type="submit" value="Ver" />
+        </form>
+      </div>
     </div>
     <img src="qrliverpool.png" width="400px" height="400px" />
     <div class="encabezado" style="padding-bottom: 2%">
-      <a href="https://mesaderegalos.liverpool.com.mx/milistaderegalos/51574733"
-        >Liverpool</a
-      >
+      <p>Liverpool</p>
+
+      <div>
+        <form
+          action="https://mesaderegalos.liverpool.com.mx/milistaderegalos/51574733"
+        >
+          <input class="my-buttonPequeño" type="submit" value="Ver" />
+        </form>
+      </div>
     </div>
     <p class="texto">No. Evento 51574733</p>
   </div>
@@ -247,10 +280,10 @@
   </div>
 
   <div class="texto" style="padding-top: 5%">
-    <div style="padding-bottom: 5%; font-size: 60px">
+    <div style="padding-bottom: 5%; font-size: 45px">
       Favor de confirmar la asistencia dando click en el botón de abajo
     </div>
-    <div style="padding-top: 2%; padding-bottom: 10%">
+    <div>
       <form
         action="https://docs.google.com/forms/d/e/1FAIpQLSfsrdvZ9td-RPGFH2lETSb1LNyC6ikPToGHrq4CwtnencU6Bg/viewform?usp=header"
       >
