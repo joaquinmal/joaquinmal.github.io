@@ -64,32 +64,6 @@
     align-items: center;
     padding-top: 5%;
   }
-  /* From Uiverse.io by zjssun */
-  button {
-    padding: 10px 20px;
-    text-transform: uppercase;
-    border-radius: 8px;
-    font-size: 17px;
-    font-weight: 500;
-    color: back;
-    text-shadow: none;
-    background: transparent;
-    cursor: pointer;
-    box-shadow: transparent;
-    border: 1px solid #9d8b56;
-    transition: 0.5s ease;
-    user-select: none;
-  }
-
-  #btn:hover,
-  :focus {
-    color: #ffffff;
-    background: #9d8b56;
-    border: 1px solid #9d8b56;
-    text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff;
-    box-shadow: 0 0 5px #9d8b56, 0 0 20px #9d8b56, 0 0 50px #9d8b56,
-      0 0 100px #9d8b56;
-  }
 </style>
 
 <div class="cuerpo">
@@ -266,10 +240,12 @@
 
   <div class="texto" style="padding-top: 5%">
     <div style="padding-bottom: 5%; font-size: 60px">
-      Favor de confirmar la asistencia dando click en el botón
+      Favor de confirmar la asistencia dando click en el botón de abajo
     </div>
     <div style="padding-top: 2%; padding-bottom: 10%">
-      <button id="btn">Confirmar Asistencia</button>
+      <form action="http://google.com">
+        <input type="submit" value="Confirmar Asistencia" />
+      </form>
     </div>
   </div>
 </div>
