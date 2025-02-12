@@ -64,6 +64,28 @@
     align-items: center;
     padding-top: 5%;
   }
+
+  .my-button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .my-button:hover {
+    font-family: "Josefin Slab", serif;
+    color: black;
+    font-size: 40pc;
+    background-color: #9d8b56;
+  }
+
+  .my-button:active {
+    font-family: "Josefin Slab", serif;
+    background-color: #a38d4c;
+    font-size: 40pc;
+  }
 </style>
 
 <div class="cuerpo">
@@ -243,8 +265,10 @@
       Favor de confirmar la asistencia dando click en el botón de abajo
     </div>
     <div style="padding-top: 2%; padding-bottom: 10%">
-      <form action="http://google.com">
-        <input type="submit" value="Confirmar Asistencia" />
+      <form
+        action="https://docs.google.com/forms/d/e/1FAIpQLSfsrdvZ9td-RPGFH2lETSb1LNyC6ikPToGHrq4CwtnencU6Bg/viewform?usp=header"
+      >
+        <input class="my-button" type="submit" value="Confirmar Asistencia" />
       </form>
     </div>
   </div>
