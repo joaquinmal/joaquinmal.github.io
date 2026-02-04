@@ -22,21 +22,6 @@
         box-sizing: border-box; /* Para que el padding no afecte el tamaño total */
         overflow-x: hidden; /* Evita scroll horizontal */
       }
-
-      .tarjeta-safari {
-        /* El nombre del archivo debe ser idéntico al que tienes en tu carpeta */
-        background-image:
-          linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.1)),
-          url("animales.jpg");
-
-        background-size: cover; /* Cubre todo el div sin deformarse */
-        background-position: center; /* Centra la imagen de fondo */
-        background-repeat: no-repeat; /* Evita que la imagen se repita */
-        padding: 50px;
-        border-radius: 15px;
-        text-align: center;
-        min-height: 300px; /* Altura mínima para asegurar que se vea la imagen */
-      }
       .hero-section {
         width: 100%;
         height: 100vh; /* Ocupa el 100% de la altura de la ventana */
@@ -56,23 +41,13 @@
       }
 
       .hero-section h1 {
-        background-image:
-          linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.1)),
-          url("animales.jpg");
-        background-size: cover; /* Cubre todo el div sin deformarse */
-        background-position: center; /* Centra la imagen de fondo */
-        background-repeat: no-repeat; /* Evita que la imagen se repita */
-        padding: 50px;
-        border-radius: 15px;
-        text-align: center;
-        min-height: 300px; /* Altura mínima para asegurar que se vea la imagen */
         font-family: "Playfair Display", serif;
         font-size: 3.5rem;
         margin: 0;
         letter-spacing: 3px;
         z-index: 2; /* Para que esté por encima de los animales */
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
-        color: #29ab87;
+        color: #fffdd0;
       }
 
       .hero-section p {
@@ -80,45 +55,6 @@
         margin-top: 10px;
         z-index: 2;
         text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
-      }
-
-      .animal-cartoon {
-        position: absolute;
-        font-size: 80px; /* Tamaño de los emojis como caricaturas */
-        animation: float 5s ease-in-out infinite;
-        z-index: 1; /* Detrás del texto */
-      }
-
-      /* Posiciones y retrasos para cada animal */
-      .lion {
-        top: 20%;
-        left: 15%;
-        animation-delay: 0s;
-        transform: rotate(10deg);
-      }
-      .giraffe {
-        top: 50%;
-        right: 10%;
-        animation-delay: 1.5s;
-        transform: rotate(-8deg);
-      }
-      .elephant {
-        bottom: 15%;
-        left: 30%;
-        animation-delay: 3s;
-        transform: rotate(5deg);
-      }
-      .monkey {
-        top: 10%;
-        right: 25%;
-        animation-delay: 2s;
-        transform: rotate(-15deg);
-      }
-      .zebra {
-        bottom: 30%;
-        left: 5%;
-        animation-delay: 4s;
-        transform: rotate(12deg);
       }
 
       @keyframes float {
@@ -189,7 +125,8 @@
 
       .contenido {
         padding: 40px 30px;
-        color: #4a4a4a;
+        color: #006847;
+        font-size: medium;
       }
 
       .nombre-bebe {
@@ -269,8 +206,8 @@
       .flecha {
         width: 20px;
         height: 20px;
-        border-right: 3px solid #29ab87; /* Color dorado ocre */
-        border-bottom: 3px solid #29ab87;
+        border-right: 3px solid #fffdd0; /* Color dorado ocre */
+        border-bottom: 3px solid #fffdd0;
         transform: rotate(45deg);
         animation: saltar 2s infinite;
       }
