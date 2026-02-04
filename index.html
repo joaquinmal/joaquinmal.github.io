@@ -1,299 +1,294 @@
-<style>
-  @import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Josefin+Slab:ital,wght@0,100..700;1,100..700&display=swap");
-  .cuerpo {
-    height: max-content;
-    width: fit-content;
-    background-color: #f9faeb;
-    display: flex;
-    flex-direction: column;
-  }
-  body {
-    height: fit-content;
-    width: fit-content;
-    padding: 0%;
-    margin: 0%;
-  }
-  .encabezado {
-    font-family: "Great Vibes", serif;
-    padding: 5% 0 0 0;
-    font-size: 70px;
-    display: flex;
-    justify-content: center;
-  }
-
-  .nombres {
-    font-family: "Great Vibes", serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-size: 100px;
-    color: #9d8b56;
-    padding: 10%;
-  }
-
-  .texto {
-    font-size: 40px;
-    text-align: center;
-    font-family: "Josefin Slab", serif;
-  }
-
-  .fecha {
-    padding-top: 5%;
-    font-size: 70px;
-    font-family: "Josefin Slab", serif;
-    color: #9d8b56;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-  }
-
-  .nombresPadres {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    font-family: "Josefin Slab", serif;
-    align-items: center;
-    text-align: center;
-    padding-bottom: 5%;
-    font-size: 40px;
-  }
-
-  .mesaqr {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 5%;
-  }
-
-  .my-button {
-    font-family: "Josefin Slab", serif;
-    color: white;
-    font-size: 30px;
-    background-color: #9d8b56;
-    border-radius: 20px;
-    margin: 2% 10% 10% 10%;
-    height: 60px;
-    width: 350px;
-  }
-
-  .my-buttonPequeño {
-    font-family: "Josefin Slab", serif;
-    color: white;
-    font-size: 30px;
-    background-color: #9d8b56;
-    border-radius: 20px;
-    height: 45px;
-    width: 200px;
-  }
-</style>
-
-<div class="cuerpo">
-  <div class="encabezado">
-    <div>¡Nos casamos!</div>
-  </div>
-  <div class="nombres">
-    <div>Fernanda</div>
-    <div>&</div>
-    <div>Joaquin</div>
-  </div>
-
-  <div>
-    <p class="texto">
-      El amor es un regalo que crece con el tiempo, y hoy queremos compartirlo
-      con ustedes.
-    </p>
-  </div>
-  <div class="fecha">
-    <div>Sabado</div>
-    <div style="font-size: 120px">
-      <a style="font-size: 160px">|</a> <a>22</a>
-      <a style="font-size: 160px">|</a>
-    </div>
-    <div>Marzo</div>
-  </div>
-  <div class="fecha" style="font-size: 70px">13:30 hrs</div>
-  <div class="texto" style="padding-top: 10%">
-    <div>Parroquia San Miguel Arcángel</div>
-    <div style="padding: 5% 0 5% 0">
-      Con la bendición De Dios, nuestros padres
-    </div>
-  </div>
-  <div class="nombresPadres">
-    <div style="text-align: center">
-      <div>Jesus Altamirano</div>
-      <div>Patricia Zacarias</div>
-    </div>
-
-    <div>
-      <a style="font-size: 130px; font-weight: lighter; color: #9d8b56">|</a>
-    </div>
-
-    <div style="text-align: center">
-      <div>Joaquin Mata</div>
-      <div>Veronica Alcantara</div>
-    </div>
-  </div>
-
-  <div class="texto" style="padding-bottom: 5%">
-    Y nuestros Padrinos de velación
-  </div>
-
-  <div class="nombresPadres">
-    <div style="text-align: center">
-      <div>Rafael Altamirano</div>
-      <div>Teresa San Agustin</div>
-    </div>
-  </div>
-
-  <div class="encabezado">Itinerario</div>
-
-  <div
-    class="encabezado"
-    style="flex-direction: column; align-items: center; padding-top: 1%"
-  >
-    <img
-      style="padding-top: 1%"
-      src="itinerario1.png"
-      width="450px"
-      height="225px"
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Baby Shower Safari</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display:ital,wght@0,700;1,700&display=swap"
+      rel="stylesheet"
     />
-    <img
-      style="padding-top: 1%"
-      src="itinerario2.png"
-      width="400px"
-      height="200px"
-    />
-    <img
-      style="padding-top: 1%"
-      src="itinerario3.png"
-      width="400px"
-      height="200px"
-    />
-    <img
-      style="padding-top: 1%"
-      src="itinerario4.png"
-      width="400px"
-      height="200px"
-    />
-    <img
-      style="padding-top: 1%"
-      src="itinerario5.png"
-      width="400px"
-      height="350px"
-    />
-  </div>
+    <style>
+      body {
+        background-color: #f4f1ea;
+        font-family: "Montserrat", sans-serif;
+        display: flex;
+        flex-direction: column; /* Cambiado a columna para el scroll */
+        justify-content: flex-start; /* Alineado arriba */
+        align-items: center;
+        min-height: 100vh;
+        margin: 0;
+        padding: 0; /* Ajustado para el full-height */
+        box-sizing: border-box; /* Para que el padding no afecte el tamaño total */
+        overflow-x: hidden; /* Evita scroll horizontal */
+      }
 
-  <div class="encabezado" style="padding-bottom: 5%">Iglesia</div>
-  <div class="texto">
-    <p>
-      Parroquia San Miguel Arcángel Plaza de la Constitución S/N, San Miguel,
-      C:P 56270, Chiconcuac de Juárez, Estado De México
-    </p>
-    <div>
-      <form
-        action="https://www.google.com/maps/place//data=!4m2!3m1!1s0x85d1e893dbb7b44b:0x2cb3826e1adfe53b?entry=s&sa=X&ved=1t:8290&ictx=111"
-      >
-        <input class="my-buttonPequeño" type="submit" value="Indicaciones" />
-      </form>
-    </div>
-  </div>
+      .tarjeta-safari {
+        /* El nombre del archivo debe ser idéntico al que tienes en tu carpeta */
+        background-image:
+          linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)),
+          url("animales.jpg");
 
-  <div class="encabezado" style="padding-bottom: 5%">Recepción</div>
-  <div class="texto">
-    <p>
-      Salón Demis Allende 22, San Francisco, 56270 Chiautla, Estado de México
-    </p>
-    <div>
-      <form
-        action="https://www.google.com/maps/place//data=!4m2!3m1!1s0x85d1e89af13d5c01:0xdf496de86f22bb62?entry=s&sa=X&ved=1t:8290&ictx=111"
-      >
-        <input class="my-buttonPequeño" type="submit" value="Indicaciones" />
-      </form>
-    </div>
-  </div>
-  <div class="encabezado">
-    <img src="copas.png" width="400px" height="500px" />
-  </div>
-  <div class="encabezado" style="padding-bottom: 5%">Mesas de regalos</div>
-  <div class="mesaqr">
-    <div class="encabezado">
-      <p>Amazon</p>
-    </div>
-    <img src="qramazon.png" width="400px" height="400px" />
-    <div style="padding-bottom: 5%">
-      <form action="https://www.amazon.com.mx/wedding/share/fernandayjoaquin">
-        <input class="my-buttonPequeño" type="submit" value="Ver" />
-      </form>
-    </div>
-    <div class="encabezado">
-      <p>Liverpool</p>
-    </div>
-    <img src="qrliverpool.png" width="400px" height="400px" />
-    <div>
-      <form
-        action="https://mesaderegalos.liverpool.com.mx/milistaderegalos/51574733"
-      >
-        <input class="my-buttonPequeño" type="submit" value="Ver" />
-      </form>
-    </div>
-    <p class="texto">No. Evento 51574733</p>
-  </div>
+        background-size: cover; /* Cubre todo el div sin deformarse */
+        background-position: center; /* Centra la imagen de fondo */
+        background-repeat: no-repeat; /* Evita que la imagen se repita */
+        padding: 50px;
+        border-radius: 15px;
+        text-align: center;
+        min-height: 300px; /* Altura mínima para asegurar que se vea la imagen */
+      }
+      .hero-section {
+        width: 100%;
+        height: 100vh; /* Ocupa el 100% de la altura de la ventana */
+        background: linear-gradient(
+          to bottom,
+          #a0d2a0,
+          #8da083
+        ); /* Degradado de verdes */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        text-align: center;
+        position: relative;
+        overflow: hidden; /* Para que los animales no se salgan */
+      }
 
-  <div class="encabezado">Hoteles Cercanos</div>
-  <div class="texto" style="padding-top: 5%">
-    <div style="padding-bottom: 2%; font-size: 60px">Hotel Fontana</div>
-    <div>
-      <form
-        action="https://www.google.com/maps/place//data=!4m2!3m1!1s0x85d1e8909b3f1813:0xef5bd8f5bea9964f?entry=s&sa=X&ved=1t:8290&ictx=111"
-      >
-        <input class="my-buttonPequeño" type="submit" value="Ubicacion" />
-      </form>
-    </div>
-    <p style="padding-bottom: 2%; font-size: 40px">
-      Habitaciones (costos aproximados)
-    </p>
-    <p>Habitacion sencilla (cama doble o dos indivituales) $750</p>
-    <p>Habitacion una cama king size $800</p>
-    <p>Habitacion 1 cama matrimonial y 1 king $1250</p>
-    <p>Habitacion 2 camas matrimoniales $1250</p>
-    <p>
-      Horarios Se puede hacer el checkin desde las 8 am y el checout es a la 1pm
-    </p>
-    <p>El pago es unicamente en efectivo en el hotel</p>
-    <p>Contacto</p>
-    <p>Angeles</p>
-    <p>5959534087</p>
-  </div>
-  <div class="texto" style="padding-top: 5%">
-    <div style="padding-bottom: 2%; font-size: 60px">Hotel Xancalli</div>
-    <div>
-      <form
-        action="https://www.google.com/maps/place//data=!4m2!3m1!1s0x85d1e917bf1ceb21:0xd30f80aceb4437b?entry=s&sa=X&ved=1t:8290&ictx=111"
-      >
-        <input class="my-buttonPequeño" type="submit" value="Ubicacion" />
-      </form>
-    </div>
-    <p style="padding-bottom: 2%; font-size: 40px">
-      Habitaciones (costos aproximados)
-    </p>
-    <p>Habitacion sencilla $600</p>
-    <p>Habitacion con sofa cama $700</p>
-    <p>Habitacion doble $1100</p>
-    <p>Habitacion familiar $1200</p>
-    <p>Contacto</p>
-    <p>5956889921</p>
-  </div>
+      .hero-section h1 {
+        font-family: "Playfair Display", serif;
+        font-size: 3.5rem;
+        margin: 0;
+        letter-spacing: 3px;
+        z-index: 2; /* Para que esté por encima de los animales */
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+      }
 
-  <div class="texto" style="padding-top: 5%">
-    <div style="padding-bottom: 5%; font-size: 45px">
-      Favor de confirmar la asistencia dando click en el botón de abajo
+      .hero-section p {
+        font-size: 1.2rem;
+        margin-top: 10px;
+        z-index: 2;
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+      }
+
+      .animal-cartoon {
+        position: absolute;
+        font-size: 80px; /* Tamaño de los emojis como caricaturas */
+        animation: float 5s ease-in-out infinite;
+        z-index: 1; /* Detrás del texto */
+      }
+
+      /* Posiciones y retrasos para cada animal */
+      .lion {
+        top: 20%;
+        left: 15%;
+        animation-delay: 0s;
+        transform: rotate(10deg);
+      }
+      .giraffe {
+        top: 50%;
+        right: 10%;
+        animation-delay: 1.5s;
+        transform: rotate(-8deg);
+      }
+      .elephant {
+        bottom: 15%;
+        left: 30%;
+        animation-delay: 3s;
+        transform: rotate(5deg);
+      }
+      .monkey {
+        top: 10%;
+        right: 25%;
+        animation-delay: 2s;
+        transform: rotate(-15deg);
+      }
+      .zebra {
+        bottom: 30%;
+        left: 5%;
+        animation-delay: 4s;
+        transform: rotate(12deg);
+      }
+
+      @keyframes float {
+        0% {
+          transform: translateY(0px);
+        }
+        50% {
+          transform: translateY(-20px);
+        }
+        100% {
+          transform: translateY(0px);
+        }
+      }
+
+      .invitacion-container {
+        transform: translateY(100vh); /* Inicialmente fuera de la vista */
+        transition: transform 1s ease-out; /* Animación de desplazamiento */
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 40px 20px; /* Espaciado interno */
+        box-sizing: border-box;
+        background-color: #f4f1ea; /* Fondo para que no se vea transparente al subir */
+      }
+
+      .invitacion-container.visible {
+        transform: translateY(0); /* Se desplaza a su posición normal */
+      }
+
+      .invitacion {
+        background-color: white;
+        max-width: 450px;
+        width: 100%;
+        border-radius: 20px;
+        overflow: hidden;
+        box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+        border: 8px solid #8da083; /* Verde Salvia */
+        text-align: center;
+        position: relative;
+      }
+
+      .header-safari {
+        background-color: #8da083;
+        padding: 40px 20px;
+        color: white;
+      }
+
+      .animales-small {
+        /* Para la sección de contenido */
+        font-size: 40px;
+        margin-bottom: 10px;
+      }
+
+      .header-safari h2 {
+        font-family: "Playfair Display", serif;
+        margin: 0;
+        font-size: 2rem;
+        letter-spacing: 2px;
+      }
+
+      .sub-header {
+        text-transform: uppercase;
+        font-size: 0.8rem;
+        letter-spacing: 3px;
+        margin-top: 10px;
+      }
+
+      .contenido {
+        padding: 40px 30px;
+        color: #4a4a4a;
+      }
+
+      .nombre-bebe {
+        font-family: "Playfair Display", serif;
+        color: #c48b32; /* Dorado Ocre */
+        font-size: 2.2rem;
+        margin: 10px 0;
+      }
+
+      .detalles {
+        margin: 30px 0;
+        line-height: 1.8;
+        border-top: 1px solid #eee;
+        border-bottom: 1px solid #eee;
+        padding: 20px 0;
+      }
+
+      .detalles strong {
+        color: #8da083;
+      }
+
+      .boton-confirmar {
+        display: inline-block;
+        background-color: #c48b32;
+        color: white;
+        padding: 15px 30px;
+        text-decoration: none;
+        border-radius: 50px;
+        font-weight: bold;
+        transition: transform 0.3s;
+        margin-top: 20px;
+      }
+
+      .boton-confirmar:hover {
+        transform: scale(1.05);
+      }
+
+      /* Responsive adjustments */
+      @media (max-width: 600px) {
+        .hero-section h1 {
+          font-size: 2.5rem;
+        }
+        .hero-section p {
+          font-size: 1rem;
+        }
+        .animal-cartoon {
+          font-size: 60px;
+        }
+        .header-safari h2 {
+          font-size: 1.8rem;
+        }
+        .nombre-bebe {
+          font-size: 2rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="hero-section" class="tarjeta-safari">
+      <h1>¡Pronto tendremos un nuevo explorador en la familia!</h1>
+      <p>Desliza hacia abajo para descubrir la aventura</p>
     </div>
-    <div>
-      <form
-        action="https://docs.google.com/forms/d/e/1FAIpQLSfsrdvZ9td-RPGFH2lETSb1LNyC6ikPToGHrq4CwtnencU6Bg/viewform?usp=header"
-      >
-        <input class="my-button" type="submit" value="Confirmar Asistencia" />
-      </form>
+
+    <div class="invitacion-container" id="invitacionInfo">
+      <div class="invitacion">
+        <div class="header-safari">
+          <div class="animales-small">🌿</div>
+          <h2>Baby Shower</h2>
+          <div class="sub-header">¡Una nueva aventura comienza!</div>
+        </div>
+
+        <div class="contenido">
+          <p>
+            Acompáñanos a celebrar la pronta llegada de nuestro pequeño
+            explorador:
+          </p>
+
+          <h3 class="nombre-bebe">Joaquin</h3>
+
+          <div class="detalles">
+            <p>📅 <strong>Sábado, 14 de Marzo</strong></p>
+            <p>🕒 <strong>4:00 PM</strong></p>
+            <p>
+              📍 <strong>Jardín de Eventos "La Selva"</strong><br />Av. Aventura
+              #123, Ciudad
+            </p>
+            <p>🎁 <strong>Sugerencia:</strong> Lluvia de sobres o Pañales</p>
+          </div>
+
+          <p>¡Tu presencia hará este día más especial!</p>
+
+          <a href="https://wa.me/tu-numero-aqui" class="boton-confirmar">
+            Confirmar Asistencia
+          </a>
+        </div>
+      </div>
     </div>
-  </div>
-</div>
+
+    <script>
+      document.addEventListener("scroll", function () {
+        const invitacionInfo = document.getElementById("invitacionInfo");
+        // Calcula la posición para que la invitación aparezca cuando el usuario ha scrollado un 50% de la altura de la ventana
+        const scrollThreshold = window.innerHeight * 0.5;
+
+        if (window.scrollY > scrollThreshold) {
+          invitacionInfo.classList.add("visible");
+        } else {
+          invitacionInfo.classList.remove("visible");
+        }
+      });
+    </script>
+  </body>
+</html>
